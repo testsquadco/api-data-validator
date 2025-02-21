@@ -53,6 +53,10 @@ Tests the `DataValidator` class using Jest to ensure its validation functions wo
 
 ## How to Run
 
-### ▶Run the utilities  
+### Run the utilities   
 ```bash
 npm start
+```
+### Run the tests   
+```bash
+npm test
