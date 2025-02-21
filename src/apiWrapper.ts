@@ -43,9 +43,9 @@ export class ApiWrapper {
         return new Error(`Request failed with status ${error.response.status}: ${error.response.statusText}`);
       }
       if (error.request) {
-        return new Error('No response received from server');
+        return new Error('Server is sleeping ZZzzz...');
       }
     }
-    return new Error('An unexpected error occurred');
+    return new Error('Oops! something went wrong');
   }
 } 
